@@ -1,0 +1,67 @@
+.bg2{
+        position: absolute;
+        inset: 0;
+        width: 700px;
+        top: 100px;
+        z-index: 0;
+      }
+      #clu{
+         transform: translateY(50px);
+      }
+      #Layer_3{
+        position: relative;
+        left: 150px;
+        width: 550px;
+        top: 180px;
+        z-index: 2;
+        overflow: visible;
+      }
+      
+       #armm{
+        transform-box: fill-box;
+        transform-origin: top left;
+        }
+        #hair2{
+        transform-box: fill-box;
+        transform-origin: top;
+        }
+        #leg1m{
+        transform-box: fill-box;
+        transform-origin: top left;
+        }
+        .fw1{
+          transform-box: fill-box;
+        transform-origin: center bottom;
+        }
+        .fw2{
+          transform-box: fill-box;
+        transform-origin: center bottom;
+        }
+        
+        .cls-a, .cls-b, .cls-c, .cls-d {
+        stroke: #000;
+        }
+
+        .cls-a, .cls-b, .cls-c, .cls-d, .cls-e {
+          stroke-linecap: round;
+        }
+
+        .cls-a, .cls-b, .cls-e {
+          stroke-linejoin: round;
+        }
+
+        .cls-a, .cls-d {
+          fill: #F8F3EC;
+        }
+
+        .cls-b, .cls-c {
+          fill: none;
+        }
+
+        .cls-c, .cls-d {
+          stroke-miterlimit: 10;
+        }
+
+        .cls-e {
+          stroke: #F8F3EC;
+        }
